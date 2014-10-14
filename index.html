@@ -1,28 +1,219 @@
----
-layout: default
-permalink: /
----
+<!DOCTYPE html>
+<html>
 
- {% include hero.html %}
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="DevFest 2014 : ">
 
- {% include about.html %}
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
- {% include statistic.html %}
+    <title>DevFest 2014</title>
+  </head>
 
- {% include latest-news.html %}
+  <body>
 
- {% include rockstar-speakers.html %}
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/AndroidMontreal/zeppelin">View on GitHub</a>
 
- {% include location-map.html %}
+          <h1 id="project_title">DevFest 2014</h1>
+          <h2 id="project_tagline"></h2>
 
- {% include venue.html %}
- 
- {% include twitter-feed.html %}
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/AndroidMontreal/zeppelin/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/AndroidMontreal/zeppelin/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
- {% include partners.html %}
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="project-zeppelin--gdg-devfest-2014-site-template" class="anchor" href="#project-zeppelin--gdg-devfest-2014-site-template"><span class="octicon octicon-link"></span></a>Project Zeppelin / GDG DevFest 2014 site template</h1>
 
- {% include subscribe.html %}
+<h3>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About</h3>
 
- {% include tickets.html %}
+<p>Project Zeppelin allows you to setup awesome GDG DevFest site in 5 minutes. </p>
 
- {% include tickets-2.html %}
+<p>Project is builded on top of <a href="http://jekyllrb.com/">Jekyll</a> - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. <a href="http://jekyllrb.com/">Learn more about Jekyll</a>.</p>
+
+<p>Template is brought by <a href="http://lviv.gdg.org.ua/">GDG Lviv</a> team.</p>
+
+<h3>
+<a name="live-demo-httpgdg-xgithubiozeppelin" class="anchor" href="#live-demo-httpgdg-xgithubiozeppelin"><span class="octicon octicon-link"></span></a>Live demo <a href="http://gdg-x.github.io/zeppelin/">http://gdg-x.github.io/zeppelin/</a>
+</h3>
+
+<h3>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h3>
+
+<ul>
+<li>Easy to setup</li>
+<li>Simple and responsive design</li>
+<li>Integrated speakers and sessions management</li>
+<li>SVG icons</li>
+<li>SEO friendly</li>
+</ul>
+
+<h3>
+<a name="quick-start-guide" class="anchor" href="#quick-start-guide"><span class="octicon octicon-link"></span></a>Quick-start guide</h3>
+
+<ol>
+<li>
+<a href="https://github.com/gdg-x/zeppelin/fork">Fork</a> this repo</li>
+<li>Clone locally</li>
+<li>Update <code>_config.yml</code> </li>
+<li>Select what content blocks do you need</li>
+<li>Push changes to <code>gh-pages</code> branch</li>
+<li>Enjoy your awesome DevFest site at <code>http://[your github name].github.io/zeppelin/</code>
+</li>
+</ol>
+
+<p>Or watch project presentation from <a href="http://www.youtube.com/watch?v=xYmhheoLjcI">GDG[x] Townhall meeting</a>. Slides available <a href="https://docs.google.com/presentation/d/19aM7yNl_orDaCNND5LpCY3fShb6PyMltnzYfKvV8R_8/edit?usp=sharing">here</a></p>
+
+<h2>
+<a name="local-development" class="anchor" href="#local-development"><span class="octicon octicon-link"></span></a>Local development</h2>
+
+<p>Check if you have <a href="http://jekyllrb.com/docs/installation/">all requirments for local environment</a>, install <a href="http://jekyllrb.com/docs/quickstart/">Jekyll server</a> gem and run this command from project root folder:</p>
+
+<div class="highlight highlight-bash"><pre>    jekyll serve -w
+</pre></div>
+
+<p>Site will be available at <a href="http://127.0.0.1:4000/zeppelin/">http://127.0.0.1:4000/zeppelin/</a></p>
+
+<p><strong>NOTE:</strong> in this mode all changes to html and data files will be automatically regenerated, but after changing <code>_config.yml</code> you have to restart server.</p>
+
+<h3>
+<a name="sass-support" class="anchor" href="#sass-support"><span class="octicon octicon-link"></span></a>Sass support</h3>
+
+<p>Install Sass. Ruby uses Gems to manage its various packages of code like Sass. In your open terminal window type:</p>
+
+<div class="highlight highlight-bash"><pre>    gem install sass
+</pre></div>
+
+<p>Also you need to install the latest version of <a href="http://compass-style.org/">Compass</a> with command</p>
+
+<div class="highlight highlight-bash"><pre>    gem install compass --pre
+</pre></div>
+
+<p>Then for combining media queries you can use <a href="https://github.com/aaronjensen/sass-media_query_combiner">Sass::MediaQueryCombiner</a> plugin. Install with command</p>
+
+<div class="highlight highlight-bash"><pre>    gem install sass-media_query_combiner
+</pre></div>
+
+<p>And for prefixing css3 properties use <a href="https://github.com/ai/autoprefixer">Autoprefixer</a></p>
+
+<div class="highlight highlight-bash"><pre>    gem install autoprefixer-rails
+</pre></div>
+
+<p>To watch changes in <code>.sass</code> files and compile it to the <code>.css</code> on a fly, run this command from <code>\_sass\</code> folder</p>
+
+<div class="highlight highlight-bash"><pre>    compass watch -c config.rb -e production
+</pre></div>
+
+<p>Learn more about Sass development from <a href="https://github.com/gdg-x/zeppelin/wiki/Sass-development">documentation</a>.</p>
+
+<h3>
+<a name="resource-optimizations-optional" class="anchor" href="#resource-optimizations-optional"><span class="octicon octicon-link"></span></a>Resource optimizations (optional)</h3>
+
+<p>You can optimize images and minify css and javascript automaticaly (for now only on Windows).
+But for Mac OS users available amazing tool - <a href="https://imageoptim.com/">imageoptim</a>. Thanks <a href="https://github.com/raphaelsavina">@raphaelsavina</a> for link.
+Optimize all images by running this script from <code>/automation/images/</code> folder:</p>
+
+<div class="highlight highlight-bash"><pre>    all_image_optimization.bat -d -jtran -pout -pquant -optip -gsicle -svgo
+</pre></div>
+
+<p>To minify CSS and JS run <code>minify_all.bat</code> from <code>/automation/minifying/</code> folder:</p>
+
+<div class="highlight highlight-bash"><pre>    minify_all.bat
+</pre></div>
+
+<p>Learn more about available optimization options from <a href="https://github.com/gdg-x/zeppelin/wiki/Resources-optimizations">documentation</a>.</p>
+
+<h3>
+<a name="documentation" class="anchor" href="#documentation"><span class="octicon octicon-link"></span></a>Documentation</h3>
+
+<p>Quick-start guide is not enough? Checkout <a href="https://github.com/gdg-x/zeppelin/wiki">full documentation</a>.</p>
+
+<h3>
+<a name="todo-list" class="anchor" href="#todo-list"><span class="octicon octicon-link"></span></a>TODO List</h3>
+
+<ul>
+<li>Optimization scripts for mac and linux</li>
+</ul>
+
+<h3>
+<a name="known-issues" class="anchor" href="#known-issues"><span class="octicon octicon-link"></span></a>Known issues</h3>
+
+<ul>
+<li>Scrolling on open navbar</li>
+</ul>
+
+<h3>
+<a name="used-libraries" class="anchor" href="#used-libraries"><span class="octicon octicon-link"></span></a>Used libraries</h3>
+
+<ul>
+<li><a href="https://github.com/twbs/bootstrap">Bootstrap</a></li>
+<li><a href="https://github.com/daneden/animate.css">Animate.css</a></li>
+<li><a href="https://github.com/publicis-indonesia/Waves">Waves</a></li>
+<li><a href="https://github.com/bas2k/jquery.appear">jquery.appear</a></li>
+<li><a href="https://github.com/mhuggins/jquery-countTo">jQuery countTo Plugin</a></li>
+<li><a href="https://github.com/mattboldt/typed.js">Typed.js</a></li>
+<li><a href="https://github.com/leafo/sticky-kit">Sticky-kit</a></li>
+</ul>
+
+<h3>
+<a name="who-is-using-template" class="anchor" href="#who-is-using-template"><span class="octicon octicon-link"></span></a>Who is using template?</h3>
+
+<p>Going to use template? Go on! The only thing we ask - let us know at <a href="mailto:lviv@gdg.org.ua"><em>lviv@gdg.org.ua</em></a> so we can include you to this list, or make a pull request.</p>
+
+<ul>
+<li><a href="http://devfest.gdg.org.ua/">GDG DevFest Ukraine 2014</a></li>
+<li><a href="http://devfesttr.com/">GDG DevFest Istanbul 2014</a></li>
+<li><a href="http://gdg-devfest-omsk.org/">GDG DevFest Omsk 2014</a></li>
+<li><a href="http://gdgbangalore.github.io/">GDG Bangalore Site</a></li>
+<li><a href="http://devfest.gdgny.org">2014 南阳 GDG Devfest 大会</a></li>
+<li><a href="http://2014.devfestne.com.br/">DevFest Nordeste 2014</a></li>
+<li><a href="http://www.devfest.nl/">GDG DevFest The Netherlands</a></li>
+<li><a href="http://www.devfestcentrooeste.com.br/">DevFest Centro-Oeste 2014</a></li>
+<li><a href="http://sp.devfest.com.br/">DevFest SP 2014</a></li>
+<li><a href="http://gdg-space-coast.github.io/zeppelin/">Android DevFest Space Coast</a></li>
+<li><a href="devfest.gdgbaroda.com">DevFest in Baroda</a></li>
+<li><a href="http://maximemularz.github.io/zeppelin/">GDG Hi Pic (France)</a></li>
+<li><a href="http://gdgcordoba.github.io/zeppelin/">GDG DevFest Córdoba 2014</a></li>
+<li><a href="http://www.gdg-dus.de/DevFest2014/">GDG DevFest Düsseldorf 2014</a></li>
+<li><a href="http://gdg-dublin.appspot.com/">GDG Dublin DevFest 2014</a></li>
+</ul>
+
+<h3>
+<a name="contributors" class="anchor" href="#contributors"><span class="octicon octicon-link"></span></a>Contributors</h3>
+
+<ul>
+<li>Design and web development: <a href="https://github.com/ozasadnyy">Oleh Zasadnyy</a>
+</li>
+<li>Idea: <a href="https://github.com/zasadnyy">Vitaliy Zasadnyy</a>
+</li>
+</ul>
+
+<h3>
+<a name="licence" class="anchor" href="#licence"><span class="octicon octicon-link"></span></a>Licence</h3>
+
+<p>Project is published under the <a href="https://github.com/gdg-x/zeppelin/blob/master/LICENSE.txt">MIT licence</a>. Feel free to clone and modify repo as you want, but don't forget to add reference to authors :)</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">DevFest 2014 maintained by <a href="https://github.com/AndroidMontreal">AndroidMontreal</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
