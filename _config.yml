@@ -6,9 +6,9 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
 # Site Settings
 title: "GDG DevFest Season 2014"
-email: "etienne.caron@gmail.com"
+email: "laurence.de.villers.prog@gmail.com"
 description: "GDG DevFest is a set of events all around the world"
-baseurl: "/2014"
+baseurl: "/2016"
 url: "http://devfest.android-montreal.com"
 permalink: "/blog/:title"
 #googleAnalyticsTrackingId: "UA-43643469-5"
@@ -19,7 +19,7 @@ permalink: "/blog/:title"
 organizerName: "GDG Montreal Android"
 organizerAlternateName: "Google Developer Group Montreal Android"
 organizerDescription: "One of us, one of uf!"
-organizerEmail: "etienne.caron@gmail.com"
+organizerEmail: "laurence.de.villers.prog@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://android-montreal.com/"
 
@@ -51,8 +51,8 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
+heroTitle: "GDG DevFest <typeout> 2016"
+eventDate: "November 19th, 2016"
 typeoutTextValues: '"", "Season", "Montreal", "Canada"'
 typeoutFallback: "Season"
 heroButtons:
@@ -85,19 +85,19 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Top Floor"
-eventLocationLink: "http://notman.org"
-eventStreetAddress: "51 Sherbrooke West"
+eventLocationName: "Shopify"
+eventLocationLink: "https://www.shopify.ca/designers/montreal"
+eventStreetAddress: "490 Rue de la Gauchetière O"
 eventAddressLocality: "Montreal"
 eventAddressLocalityRegion: "Quebec"
 eventPostalCode: "H2X 1X2"
 eventAddressCountry: "Canada"
-eventStartTime: "2014-10-24T18:00"
-eventDoorTime: "17:30"
-eventEndTime: "2014-10-26T19:00"
-eventPlaceCoordinates: "45.511777,-73.570094"
-mapCenterCoordinates: "45.511777,-73.570094"
-mapMobileCenterCoordinates: "45.511777,-73.570094"
+eventStartTime: "2016-10-19T9:00"
+eventDoorTime: "8:30"
+eventEndTime: "2016-10-19T18:00"
+eventPlaceCoordinates: "45.502606,-73.5660646"
+mapCenterCoordinates: "45.511777,-73.5660646"
+mapMobileCenterCoordinates: "45.502606,-73.5660646"
 
 # Venue Block
 venueBlockTitle: "Venue"
@@ -105,9 +105,9 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Notman House"
+venueTitle: "Shopify"
 
-venueFeatures: ["Located directly in the heart of the city"]
+venueFeatures: ["Station Metro Square Victoria"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -184,7 +184,7 @@ footerBlocks:
  -
   title: "Contacts"
   links:
-   - {link: "mailto:etienne.caron@gmail.com", text: "etienne.caron@gmail.com"}
+   - {link: "mailto:laurence.de.villers.prog@gmail.com", text: "laurence.de.villers.prog@gmail.com"}
  -
   title: "FAQ"
   links:
@@ -210,8 +210,8 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "45.511777,-73.570094"
-logisticsMapMobileCenterCoordinates: "45.511777,-73.570094"
+logisticsMapCenterCoordinates: "45.502606,-73.5660646"
+logisticsMapMobileCenterCoordinates: "45.502606,-73.5660646"
 
 # Logistics Direction Details Block
 #directionDetailsImage: "direction-details.jpg"

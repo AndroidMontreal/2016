@@ -1,60 +1,65 @@
 - 
   id: 0
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: VitaliyZasadnyy.jpg
+  name: "de Villers"
+  surname: "Laurence"
+  title: "GDG, WTM Lead and Mobile Developer"
+  thumbnailUrl: laurence.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
+    - {name: "google-plus", link: "https://plus.google.com/+LaurencedeVillers"}
+    - {name: "twitter", link: "https://twitter.com/L_de_V"}
+    - {name: "github", link: "https://github.com/ldev6"}
+    - {name: "site", link: "http://www.laurencedevillers.com/" }
 - 
   id: 1
-  name: "Oleh"
-  surname: "Zasadnyy"
-  title: "Designer and Web Developer"
-  thumbnailUrl: OlehZasadnyy.jpg
+  name: "Caron"
+  surname: "Étienne"
+  title: "GDG Expert "
+  thumbnailUrl: etienne.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
+    - {name: "google-plus", link: "https://plus.google.com/+EtienneCaron"}
+    - {name: "twitter", link: "https://twitter.com/kanawish"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/etcaron"}
+    - {name: "site", link: "https://developers.google.com/experts/people/etienne-caron"}
 - 
   id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: OstapAndrusiv.jpg
+  name: "Dubois"
+  surname: "Boris"
+  title: "GDG and Mobile Developer"
+  thumbnailUrl: boris.jpg
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
+    - {name: "google-plus", link: "https://plus.google.com/+borisdubois"}
+    - {name: "twitter", link: "https://twitter.com/borisdb"}
+    - {name: "github", link: "https://github.com/borisdb"}
 - 
   id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
-  title: "Android Program Committee"
-  thumbnailUrl: DmytroDanylyk.jpg
+  name: "Damasceno"
+  surname: "Marcos Paulo"
+  title: "GDG Expert"
+  thumbnailUrl: marcos.jpg
   subTeam: true
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+    - {name: "google-plus", link: "https://plus.google.com/+marcospaulosd"}
+    - {name: "twitter", link: "https://twitter.com/marcospaulos"}
+    - {name: "github", link: "https://github.com/marcospaulo"}
+    - {name: "site", link: "https://developers.google.com/experts/people/marcos-damasceno"}
 - 
   id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  title: "Web and Cloud Program Committee"
-  thumbnailUrl: ValentynShybanov.jpg
+  name: "Ambris"
+  surname: "Anas"
+  title: "Mobile Developer"
+  thumbnailUrl: anas.jpg
   subTeam: true
   social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+    - {name: "google-plus", link: "https://plus.google.com/+AnasAmbri"}
+    - {name: "twitter", link: "https://twitter.com/AnasAmbri"}
+    - {name: "github", link: "https://github.com/anas-ambri"}
+    - {name: "site", link: "http://verybadalloc.com/"}
