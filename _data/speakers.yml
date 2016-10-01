@@ -13,7 +13,7 @@
     - {name: "linkedin", link: "https://www.linkedin.com/in/etcaron"}
     - {name: "site", link: "https://developers.google.com/experts/people/etienne-caron"}
 - 
-  id: 4
+  id: 1
   name: "Narasimhan"
   surname: "Nitya"
   company: "Google Developer Group Hudson Valley,"
@@ -25,3 +25,15 @@
     - {name: "google-plus", link: "https://plus.google.com/+NityaNarasimhan"}
     - {name: "twitter", link: "https://twitter.com/nitya"}
     - {name: "github", link: "https://github.com/nitya"}
+
+- id: 2
+  name: "Dubois"
+  surname: "Boris"
+  company: "La Presse"
+  bio: "Mobile Developer @ La Presse"
+  thumbnailUrl: boris.jpg
+  rockstar: false 
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+borisdubois"}
+    - {name: "twitter", link: "https://twitter.com/borisdb"}
+    - {name: "github", link: "https://github.com/borisdb"}
