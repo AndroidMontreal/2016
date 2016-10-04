@@ -1,13 +1,23 @@
 -
+  id: 306
+  title: "Breakfast"
+  place: "Main Room"
+  service: true
+-
   id: 307
   title: "Coffee Break"
-  place: "Hall"
+  place: "Main Room"
   service: true
 -
   id: 503
   title: "Lunch Break"
-  place: "Dining room"
+  place: "Main Room"
   service: true
+-
+ id: 308
+ title: "Welcome + Keynote"
+ subtype: "presentation"
+ language: en
 -
   id: 001
   title: "Tensoflow"
