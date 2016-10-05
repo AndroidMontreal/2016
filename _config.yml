@@ -3,15 +3,11 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
-sass:
-    sass_dir: static/css/
-    style: :nested
-
 # Site Settings
 title: "GDG DevFest Season 2016"
 email: "devfest@android-montreal.com"
 description: "GDG DevFest is a set of events all around the world"
-baseurl: "/2016"
+baseurl: "/zeppelin"
 url: "http://devfest.android-montreal.com"
 #googleAnalyticsTrackingId: "UA-43643469-5"
 #googleAnalyticsSiteUrl: "devfest.android-montreal.com"
