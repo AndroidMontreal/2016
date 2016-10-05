@@ -102,7 +102,7 @@ venueFeatures: ["Station Metro Square Victoria"]
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "devfest"
-#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=900"
+#twitterFeed: "https://twitter.com/@androidmontreal"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -138,7 +138,6 @@ socialLinks:
  - {link: "plus.google.com/+AndroidMontrealGDG", icon: "google-plus"}
  - {link: "https://twitter.com/intent/user?screen_name=androidmontreal", icon: "twitter"}
  - {link: "https://www.facebook.com/AndroidMontreal/", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
