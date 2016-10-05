@@ -3,6 +3,9 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
+sass:
+    sass_dir: static/css/
+    style: :nested
 
 # Site Settings
 title: "GDG DevFest Season 2016"
