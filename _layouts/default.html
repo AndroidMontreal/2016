@@ -33,6 +33,7 @@
         window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
     </script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB44mjegT5PMLAshbsyBMTwoAoWB_wZyDw&callback=initMap"/> 
     <script>
     if (typeof($.fn.modal) === 'undefined') {
         document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}><\/script>')
@@ -121,7 +122,6 @@
             
         {% endif %} 
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB44mjegT5PMLAshbsyBMTwoAoWB_wZyDw&callback=initMap"/> 
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/schedule/' %}
         <script type="text/javascript">
