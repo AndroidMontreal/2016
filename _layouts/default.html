@@ -33,9 +33,6 @@
         window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
     </script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB44mjegT5PMLAshbsyBMTwoAoWB_wZyDw&callback=initMap"
-    async defer></script>
 
     <script>
     if (typeof($.fn.modal) === 'undefined') {
@@ -46,11 +43,11 @@
     {% if page.permalink == '/' or page.permalink == '/hackathon/' %}
     <script>
         if ($(window).width() > 767) {
-            document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"><\/script>')
+            document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyB44mjegT5PMLAshbsyBMTwoAoWB_wZyDw&callback=initMap"><\/script>')
         } 
     </script>
     {% elsif page.permalink == '/logistics/' %}
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyB44mjegT5PMLAshbsyBMTwoAoWB_wZyDw&libraries=places,geometry"></script>
     {% endif %} 
     <script>
         Waves.displayEffect();
