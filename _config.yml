@@ -124,7 +124,7 @@ ticketsOffers:
   price: "20$"
   priceCurrency: "CA"
   ticketsNumber: "150"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonLink: "https://www.eventbrite.ca/e/devfest-tickets-28349635523"
   buyButtonText: "Buy Now"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
   validFrom: "2016-10-01T10:00"
@@ -134,7 +134,7 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "plus.google.com/+AndroidMontrealGDG", icon: "google-plus"}
+ - {link: "https://plus.google.com/+AndroidMontrealGDG", icon: "google-plus"}
  - {link: "https://twitter.com/intent/user?screen_name=androidmontreal", icon: "twitter"}
  - {link: "https://www.facebook.com/AndroidMontreal/", icon: "facebook"}
 footerBlocks:
