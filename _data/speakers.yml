@@ -12,27 +12,14 @@
     - {name: "twitter", link: "https://twitter.com/kanawish"}
     - {name: "linkedin", link: "https://www.linkedin.com/in/etcaron"}
     - {name: "site", link: "https://developers.google.com/experts/people/etienne-caron"}
-- 
-  id: 1
-  name: "Narasimhan"
-  surname: "Nitya"
-  company: "Google Developer Group Hudson Valley,"
-  title: "Founding Organizer"
-  bio: "Over 15 years of research and development experience in building systems and middleware for survivable, mobile and pervasive computing. Established record of technical innovation, professional service and multi-disciplinary collaboration with industry and university partners. Experience managing people, projects and teams to rapidly create and deploy advanced concept prototypes and solutions for next-generation mobile &amp; TV platforms. I love working in multi-disciplinary teams and am most inspired by folks who bring passion, creativity, curiosity and a strong work ethic to everything they do."
-  thumbnailUrl: nitya.jpg
-  rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+NityaNarasimhan"}
-    - {name: "twitter", link: "https://twitter.com/nitya"}
-    - {name: "github", link: "https://github.com/nitya"}
-
+    
 - id: 2
   name: "Dubois"
   surname: "Boris"
   company: "La Presse"
   bio: "Mobile Developer @ La Presse"
   thumbnailUrl: boris.jpg
-  rockstar: false 
+  rockstar: true 
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+borisdubois"}
     - {name: "twitter", link: "https://twitter.com/borisdb"}
