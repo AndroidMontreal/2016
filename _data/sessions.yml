@@ -28,8 +28,9 @@
   title: "How­To Start Developing with Machine Learning"
   description: "Curious about machine learning? Come to this event and learn how to get started! The best part about developing with machine learning today is that you can get started with no prior experience. At this event, we’ll introduce “ready to use” APIs from Google Cloud Platform, and TensorFlow, an open source library for machine intelligence. Then we’ll work through some codelabs (guided step by step tutorials). Please bring a laptop."
   subtype: presentation
+  speakers: [0]
   language: en
-  complexity: "Intermediate"
+  complexity: "Beginner"
 -
   id: 002
   title: "Code Lab - Days Dream"
