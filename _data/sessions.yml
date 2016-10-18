@@ -49,16 +49,19 @@
   complexity: "Beginner"
 -
   id: 004
-  title: "Surprise Topic"
+  title: "Understanding IntelliJ Plugins"
   language: en
-  description: ""
+  description: "An introduction to IntelliJ plugin architectures and a guide on how to navigate the IntelliJ APIs. Since everything is open and extendable in IntelliJ you are enabled to build nearly anything you can imagine, but the breadth of APIs and lack of thorough documentation also means starting out is very daunting. Through this presentation you will gain an understanding of the IntelliJ API design and the skills to get started on building tools."
   subtype: presentation
+  speakers: [1]
   language: en
+  complexity: "Intermediate"
+
 -
   id: 005
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [7]
+  title: "Stealing the Web’s Best Feature"
+  description: "Square Cash recently moved some core business logic out of Java and into an embedded scripting language. This allows the web, iOS, and Android clients to share the same code, as well as update that logic on the fly without requiring an app update. Learn the background behind this decision, how we leverage the technology on Android, and how you can do the same with your app."
+  subtype: presentation
+  speakers: [3]
   language: en
-  complexity: "Expert"
+  complexity: "Intermediate"

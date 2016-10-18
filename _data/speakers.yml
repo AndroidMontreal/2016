@@ -1,26 +1,48 @@
 - 
   id: 0
-  name: "Caron"
-  surname: "Étienne"
+  surname: "Étienne Caron"
   company: "Shopify"
   title: "Mobile Developer Lead"
   bio: "Etienne is a software developer who’s worked on all tiers (server, web, mobile and embedded) of large scale software platforms. As a member of the Google Dev Expert program for Android, he loves to learn and share with the community. Etienne works as a Mobile Dev Lead for Shopify, helping make commerce better for everyone."
   thumbnailUrl: etienne.jpg
-  rockstar: true
+  rockstar: false
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+EtienneCaron"}
     - {name: "twitter", link: "https://twitter.com/kanawish"}
     - {name: "linkedin", link: "https://www.linkedin.com/in/etcaron"}
     - {name: "site", link: "https://developers.google.com/experts/people/etienne-caron"}
+
+- id: 1
+  surname: "Alex Strong"
+  company: "Square Cash"
+  title: "Android Developer"
+  bio: "Android Developer on Square Cash. Creator of SQLDelight.  Kitchener Waterloo resident. Super Smash Bros. Melee competitor."
+  thumbnailUrl: alex.jpg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/strongolopolis"}
+    - {name: "github", link: "https://github.com/AlecStrong"}
     
 - id: 2
-  name: "Dubois"
-  surname: "Boris"
+  surname: "Boris Dubois"
   company: "La Presse"
   bio: "Mobile Developer @ La Presse"
   thumbnailUrl: boris.jpg
-  rockstar: true 
+  rockstar: false 
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+borisdubois"}
     - {name: "twitter", link: "https://twitter.com/borisdb"}
     - {name: "github", link: "https://github.com/borisdb"}
+
+- id: 3
+  surname: "Matt Precious"
+  company: "Square Cash"
+  title: "Lead developer for Android"
+  bio: "Lead developer of Square Cash for Android in Waterloo, Canada. Contributor to several open source projects including Telescope, Whorlwind, Swirl, and u2020."
+  thumbnailUrl: matt.jpg
+  rockstar: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+MatthewPrecious"}
+    - {name: "twitter", link: "https://twitter.com/mattprec"}
+    - {name: "github", link: "https://github.com/mattprecious"}
+    
