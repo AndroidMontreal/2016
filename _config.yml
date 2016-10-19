@@ -58,7 +58,7 @@ heroButtons:
 # About Block
 aboutTitle: "About GDG DevFest"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "GDG community! Awesome speakers and lot's of fun!" }
+ - {title: "Conference", image: "conference.jpg", text: "GDG community! Awesome speakers and lots of fun!" }
  - {title: "CodeLabs", image: "workshop.jpg", text: "CodeLabs Firebase and DaysDream. Come and try coding those technologies!" }
 
 
